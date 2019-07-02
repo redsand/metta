@@ -14,6 +14,7 @@ meta:
     2: cmd.exe /c wevtutil clear-log Security
     3: cmd.exe /c wevtutil clear-log Setup
     4: cmd.exe /c wevtutil clear-log System
+    5: powershell.exe -Command '(New-Object System.Diagnostics.Eventing.Reader.EventLogSession).ClearLog("Microsoft-Windows-Sysmon/Operational")'
 os: windows
 name: Clear Windows EventLog
 uuid: 17489a64-f9fc-40ba-b4fc-350fb14e4880
