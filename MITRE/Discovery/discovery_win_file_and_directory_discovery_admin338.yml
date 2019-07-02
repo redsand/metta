@@ -11,11 +11,11 @@ meta:
   mitre_attack_phase: Discovery
   mitre_attack_technique: File and Directory Discovery 
   purple_actions:
-    1: cmd.exe /c dir c:\\ >> C:\\Users\\AUTOMA~1\AppData\\Local\\Temp\\download
-    2: cmd.exe /c dir \"c:\\Documents and Settings\" >> C:\\Users\\AUTOMA~1\\AppData\\Local\\Temp\\download
-    3: cmd.exe /c dir \"c:\\Program Files\\\" >> C:\\Users\\AUTOMA~1\\AppData\\Local\\Temp\\download
-    4: cmd.exe /c dir d:\\ >> C:\\Users\\AUTOMA~1\AppData\\Local\\Temp\\download
-    5: cmd.exe /c type C:\\Users\\AUTOMA~1\\AppData\\Local\\Temp\\download
+    1: cmd.exe /c dir c:\\ >> C:\\Users\\vagrant\AppData\\Local\\Temp\\download
+    2: cmd.exe /c dir \"c:\\Documents and Settings\" >> C:\\Users\\vagrant\\AppData\\Local\\Temp\\download
+    3: cmd.exe /c dir \"c:\\Program Files\\\" >> C:\\Users\\vagrant\\AppData\\Local\\Temp\\download
+    4: cmd.exe /c dir d:\\ >> C:\\Users\\vagrant\AppData\\Local\\Temp\\download
+    5: cmd.exe /c type C:\\Users\\vagrant\\AppData\\Local\\Temp\\download
 os: windows
 name: File and Directory Discovery commands run by admin@338 APT GROUP
 uuid: a7ea1942-83d3-4b23-bd3f-87f968c8a75f

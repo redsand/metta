@@ -11,8 +11,8 @@ meta:
   mitre_attack_phase: Discovery
   mitre_attack_technique: System Service Discovery 
   purple_actions:
-    1: cmd.exe /c net start  >> C:\\Users\\AUTOMA~1\\AppData\\Local\\Temp\\download
-    2: cmd.exe /c type C:\\Users\\AUTOMA~1\\AppData\\Local\\Temp\\download
+    1: cmd.exe /c net start  >> C:\\Users\\vagrant\\AppData\\Local\\Temp\\download
+    2: cmd.exe /c type C:\\Users\\vagrant\\AppData\\Local\\Temp\\download
 os: windows
 name: System Service Discovery commands run by admin@338 APT GROUP
 uuid: 4be5ad21-d34a-44af-9642-370735d349a8

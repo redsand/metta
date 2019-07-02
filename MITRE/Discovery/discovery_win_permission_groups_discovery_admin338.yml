@@ -11,7 +11,7 @@ meta:
   mitre_attack_phase: Discovery
   mitre_attack_technique: Permission Groups Discovery
   purple_actions:
-    1: cmd.exe /c net localgroup administrators >> C:\\Users\\AUTOMA~1\\AppData\\Local\\Temp\\download
+    1: cmd.exe /c net localgroup administrators >> C:\\Users\\vagrant\\AppData\\Local\\Temp\\download
 os: windows
 name: Permission Groups Discovery commands run by admin@338 APT GROUP
 uuid: b8450d3c-7385-4b82-a262-1ae9d50195d4

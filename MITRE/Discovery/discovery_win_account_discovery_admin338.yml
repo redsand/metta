@@ -11,8 +11,8 @@ meta:
   mitre_attack_phase: Discovery
   mitre_attack_technique: Account Discovery
   purple_actions:
-    1: cmd.exe /c net user >> C:\\Users\\AUTOMA~1\\AppData\\Local\\Temp\\download
-    2: cmd.exe /c net user /domain >> C:\\Users\\AUTOMA~1\\AppData\\Local\\Temp\\download
+    1: cmd.exe /c net user >> C:\\Users\\vagrant\\AppData\\Local\\Temp\\download
+    2: cmd.exe /c net user /domain >> C:\\Users\\vagrant\\AppData\\Local\\Temp\\download
 os: windows
 name: Account Discovery commands run by admin@338 APT GROUP
 uuid: 82c8914b-8741-493d-9a59-ada75d6dd7c1
