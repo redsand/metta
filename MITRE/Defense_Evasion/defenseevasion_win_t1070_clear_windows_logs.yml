@@ -1,0 +1,20 @@
+enabled: true
+meta:
+  author: tshelton
+  created: 2019-07-03
+  decorations:
+  - Purple Team
+  description: Clear Windows Event Logs
+  link: https://attack.mitre.org/techniques/T1070/
+  mitre_link: https://attack.mitre.org/techniques/T1070/
+  mitre_attack_phase: Defense Evasion
+  mitre_attack_technique: Indicator Removal on Host
+  purple_actions:
+    1: cmd.exe /c wevtutil clear-log Application
+    2: cmd.exe /c wevtutil clear-log Security
+    3: cmd.exe /c wevtutil clear-log Setup
+    4: cmd.exe /c wevtutil clear-log System
+os: windows
+name: Clear Windows EventLog
+uuid: 17489a64-f9fc-40ba-b4fc-350fb14e4880
+
